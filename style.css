@@ -5,7 +5,7 @@
 
 .homepage {
     background-image: url("./images/Twice pic heading.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -21,42 +21,36 @@
     height: 100px;
     border-radius: 50%;
 }
-.Members .Momo img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+
+/* DropDown button */
+.button{
+    position:absolute;
+    font-size: 20px;
 }
-.dropbtn {
-    background-color: green;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-.dropdown {
-    position: relative;
-    display: inline-block;
+.dropdown{
+    display:inline-block;
+    position:absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 10px;
 }
-.dropdown-content {
+.Menu-Content {
     display:none;
-    position: absolute;
-    background-color: white;
-    min-width: 100px;
-    z-index: 1;
+    position:absolute;
+    width:100%;
+    overflow:auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4)
 }
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.dropdown:hover .Menu-Content {
+    display:block;
+}
+.Menu-Content a{
     display: block;
-  }
-
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.Menu-Content a:hover {
+    color: grey;
+    background-color: cyan;
+}
