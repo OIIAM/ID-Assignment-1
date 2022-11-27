@@ -8,3 +8,5 @@ https://en.wikipedia.org/wiki/Dahyun
 https://en.wikipedia.org/wiki/Sana_(singer)
 https://en.wikipedia.org/wiki/Nayeon
 https://www.nme.com/big-reads/twice-cover-interview-2022-between-1-and-2-3298059
+
+https://cdn0.iconfinder.com/data/icons/basic-ui-vol-1/32/UI_stroke-46-512.png
