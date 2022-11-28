@@ -25,11 +25,45 @@ li a {
 nav{
     width:auto;
 }
+/*Headers*/
+.AboutUsH1, .Members_html_heading{
+    text-align: center;
+    font-size: 30px;
 
+}
 /* About Us Menu */
+.dropdown{
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    right: 16px;
+}
+.Dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    z-index: 1;
+}
+.dropdown:hover .Dropdown-content{
+    display:block;
+}
 .Dropdown-Menu{
-    opacity: 0.5;
-    color: white;
+    background: transparent;
+    border: transparent;
+}
+
+
+/* Members.html*/
+#left{
+    float:left;
+}
+#right{
+    float:right;
+}
+/* About Us Menu */
+/*.Dropdown-Menu{
+    background:transparent;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -38,6 +72,7 @@ nav{
 .dropdown {
     position: relative;
     display: inline-block;
+    float: right;
 }
 .Dropdown-content{
     display: none;
@@ -54,9 +89,9 @@ nav{
     display: block;
   }
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: black;
 }
 .dropdown:hover .dropdown-content {
     display: block;
-}
+} */
 
