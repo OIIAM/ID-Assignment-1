@@ -9,20 +9,30 @@
   <body class = "MV">
     <Header class = "MVH">
       <nav class = "navbarMV">
-        <div class = "logo">
-          <a href = "/index.html"> <img src = "/images/new_twice_logo_x300.avif" alt = "twice-logo" width="auto" height="50px"> </a>
-        </div>
+        <a href = "/index.html"> 
+          <img src = "/images/new_twice_logo_x300.avif" alt = "twice-logo" width="auto" height="50px"> 
+        </a>
         <div class = "nav_menu">
-          <img src = "/images/MenuImg.png" alt = "Menu";>
+          <button class = "MVButton" onclick ="myFunction()">
+            <img src = "/images/MenuImg.png" alt = "Menu Icon" width="quto" height="50px">
+          </button>
+          <div class = "MV-menu" id = "MVDropdown">
+            <a href = "/index.html">HOME</a>
+            <a href = "/html(notMain)/About-Us.html">ABOUT US</a>
+            <a href = "Members.html">MEMBERS</a>
+            <a href = "Music-Video.html">MUSIC VIDEOS</a>
+          </div>
+
+          <!--<img class = "MVJS" src  = "/images/MenuImg.png" alt = "Menu";>
           <div class = "dropdown-menu">
             <ul>
               <li><a href = "/index.html"> HOME</a></li>
               <li><a href = "/html(notMain)/About-Us.html">ABOUT US</a></li>
               <li><a href = "/html(notMain)/Members.html"> MEMBERS</a></li>
               <li><a href = "/html(notMain)/Music-Video.html">MUSIC VIDEO</a></li>
-              <li><a href = #></a></li>
+              <li><a href = #>s</a></li>
             </ul>
-          </div>
+          </div>-->
         </div>
       </nav>
     </Header>
@@ -48,4 +58,20 @@
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+    <script>
+      function myFunction(){
+            document.getElementById("MVDropdown").classList.toggle("show");
+        }
+        
+
+        window.onclick = function(e){
+            if(!e.target.matches('.MVButton')){
+                var myDropdown = document.getElementById("MVDropdown");
+                if (myDropdown.classList.contains('show')){
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+    </script>
   </body>
+  </html>

@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body class = "homepage">
-    <div class="Header">
+    <Header class = "HPnav">
+      <nav class = "NavbarHP" id = "NavBarHP">
+        <a href = "index.html" class = "active"><img src = "images/new_twice_logo_x300.avif" alt="Twice Logo" width="auto" height="50px"></a>
+        <a href = "index.html" class = "right"> Home </a>
+        <a href = "html(notMain)/About-Us.html" class = "right"> About Us </a>
+        <a href = "html(notMain)/Members.html" class = "right"> Members </a>
+        <a href = "html(notMain)/Music-Video.html" class = "right"> Music Videos</a>
+        <a href = "javascript:void(0);" class = "iconBars" onclick="myFunction()">
+          <img src = "images/MenuImg.png" alt="Menu" width="auto" height="50px">
+          <!--<i class="fa-solid fa-bars"></i>-->
+        </a>
+      </nav>
+    </Header>
+
+
+
+    <!--<div class="Header">
         <div class = "Logo">
           <img src="./images/new_twice_logo_x300.avif" width = "150" height = "auto" alt = "Twice Logo";>
         </div>
@@ -23,6 +39,22 @@
             <a href = "html(notMain)/Music-Video.html"> Music Videos</a>
           </ul>
         </nav> 
-    </div>
+    </div>-->
+
+    <footer class="HPFoot">
+      
+    </footer>
+    <!--Script-->
+    <script>
+      function myFunction(){
+        var bars = document.getElementById("NavBarHP");
+        if (bars.className === "NavbarHP"){
+          bars.className += "responsive";
+        }
+        else{
+          bars.className = "NavbarHP";
+        }
+      }
+    </script>
   </body>
 </html>

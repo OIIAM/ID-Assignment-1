@@ -1,15 +1,50 @@
-.Header h1 {
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/Twice\ pic\ heading.png);
+    background-size: cover;
+    background-repeat:no-repeat;    
+}
+Header{
+    height:60px;
+}
+.NavbarHP {
+    overflow:hidden;
+    background-color: #333;
+}
+.NavbarHP a.right{
+    float: right;
+    display: block;
+    color: grey;
     text-align: center;
-    font-size: 40px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.NavbarHP a:hover{
+    background-color: lightgrey
+}
+.NavbarHP a.active {
+    background:transparent;
+}
+.NavbarHP .iconBars{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .NavbarHP.responsive {position: relative;}
+    .NavbarHP.responsive .iconBars{
+      position:absolute;
+      right: 0;
+      top: 0;
+    }
+    .NavbarHP.responsive.a{
+      float:none;
+      display:block;
+      text-align:left;
+    }
 }
 
-.Header.Logo img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-/* DropDown button */
+/* DropDown button 
 .Menu{
     position:relative;
     background-color: transparent;
@@ -48,4 +83,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-}
+} */
