@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width" />
     <title>Assignment 1</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class = "homepage">
     <Header class = "HPnav">
-      <nav class = "NavbarHP" id = "NavBarHP">
-        <a href = "index.html" class = "active"><img src = "images/new_twice_logo_x300.avif" alt="Twice Logo" width="auto" height="50px"></a>
-        <a href = "index.html" class = "right"> Home </a>
-        <a href = "html(notMain)/About-Us.html" class = "right"> About Us </a>
-        <a href = "html(notMain)/Members.html" class = "right"> Members </a>
-        <a href = "html(notMain)/Music-Video.html" class = "right"> Music Videos</a>
-        <a href = "javascript:void(0);" class = "iconBars" onclick="myFunction()">
-          <img src = "images/MenuImg.png" alt="Menu" width="auto" height="50px">
-          <!--<i class="fa-solid fa-bars"></i>-->
+      <nav class="navbar" id="Navbar">
+        <a href = "index.html"><img src = "images/new_twice_logo_x300.avif"></a>
+        <a href = "index.html"> Home </a>
+        <a href = "html(notMain)/About-Us.html"> About Us </a>
+        <a href = "html(notMain)/Members.html"> Members </a>
+        <a href = "html(notMain)/Music-Video.html"> Music Videos</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
         </a>
       </nav>
     </Header>
@@ -41,10 +41,16 @@
         </nav> 
     </div>-->
 
-    <footer class="HPFoot">
+    <footer>
+      <nav class="nav">
+        <a href="#" class="nav_link">
+          
+        </a>
+      </nav>>
       
     </footer>
-    <!--Script-->
+    <script src ="Main.js"></script>
+    <!--Script
     <script>
       function myFunction(){
         var bars = document.getElementById("NavBarHP");
@@ -55,6 +61,6 @@
           bars.className = "NavbarHP";
         }
       }
-    </script>
+    </script>-->
   </body>
 </html>
