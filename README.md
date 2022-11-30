@@ -2,7 +2,7 @@
 
 ID Assignment 1
 This ID assignment's Website will be about Twice
-![Twice Image](/images/new_twice_logo_x300.avif)
+![Twice Image](images/new_twice_logo_x300.avif)
 
 This Website will be potentially split into 5 different html files, namely mainpage, Members, About us, Schedules, Music Videos
 
