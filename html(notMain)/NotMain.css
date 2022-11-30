@@ -384,3 +384,93 @@ nav{
 .navbar .nav_menu.MVJS.Active .dropdown-menu{
     display:flex;
 }*/
+
+/*navbar*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+  .nav{
+    background-color: lightgrey;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+  }
+ .logo{
+    height:50px;
+ }
+ .logodiv{
+    width:100%;
+ }
+ .nav-list{
+    list-style-type: none;
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+ }
+ .nav-list .items{
+    display: inline-block;
+    padding:20px 10px;
+ }
+  .nav a{
+    color:white;
+  }
+  .nav a:hover{
+    color:green;
+  }
+  .menu{
+    display: none;
+  }
+
+  .bars{
+    width: 25px;
+    height:25px;
+  }
+  @media all and (max-width: 550px){
+    .nav{
+        flex-direction: column;
+
+    }
+    .menu{
+        display:block;
+        position:absolute;
+        right:20px;
+        top:20px;
+    }
+    .nav-list{
+        list-style-type: none;
+        width:100%;
+        text-align:center;
+        padding-top:10px;
+        display:none;
+    }
+    .nav-list .items{
+        display:block;
+        border-top: 1px solid white;
+    }
+    .icon{
+        margin-top:20px;
+        margin-left:15px;
+    }
+    .active{
+        display:block;
+    }
+  }
+  .imgfloatleft img{
+    float:left;
+    width:50%;
+
+  }
+
+  .imgfloatright img{
+    float:right;
+    width:50%;
+  }
+h3{
+    text-align: center;
+}
+  
