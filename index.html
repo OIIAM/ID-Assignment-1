@@ -5,22 +5,66 @@
     <meta name="viewport" content="width=device-width" />
     <title>Assignment 1</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class = "homepage">
     <Header class = "HPnav">
-      <nav class="navbar" id="Navbar">
-        <a href = "index.html"><img src = "images/new_twice_logo_x300.avif"></a>
-        <a href = "index.html"> Home </a>
-        <a href = "html(notMain)/About-Us.html"> About Us </a>
-        <a href = "html(notMain)/Members.html"> Members </a>
-        <a href = "html(notMain)/Music-Video.html"> Music Videos</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+      <!--<nav class="navbar" id="Navbar">
+        <div class="logodiv">
+          <a href = "index.html"><img class="logo" src = "images/new_twice_logo_x300.avif"></a>
+        </div>
+        <ul class = "NavMenu">
+          <li class ="item"><a href = "index.html"> Home </a></li>
+          <li class ="item"><a href = "html(notMain)/About-Us.html"> About Us </a></li>
+          <li class ="item"><a href = "html(notMain)/Members.html"> Members </a></li>
+          <li class ="item"><a href = "html(notMain)/Music-Video.html"> Music Videos</a></li>
+        </ul>
+        <div class = "menu" id="menubutton">
+          <div class = "menuline"></div>
+          <div class = "menuline"></div>
+          <div class = "menuline"></div>
+        </div>
+      </nav>-->
+      <nav class="nav">
+        <div class="logodiv">
+            <a href="/index.html"><img class ="logo" src = "/images/new_twice_logo_x300.avif"></a>
+        </div>
+        <ul class="nav-list" id="navList">
+                <li class="items">
+                    <a href = "index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="items">
+                    <a href = "html(notMain)/About-Us.html">
+                        Members
+                    </a>
+                </li>
+
+                <li class="items">
+                    <a href = "html(notMain)/Members.html">
+                        Memm
+                    </a>
+                </li>
+
+                <li class="items">
+                    <a href = "html(notMain)/Music-Video.html">
+                        Music Videos
+                    </a>
+                </li>
+        </ul>
+        <div class="menu" id ="menubutton">
+          <img class="bars" src = "/images/menu.png">
+            <!--<div class="menuline"></div>
+            <div class="menuline"></div>
+            <div class="menuline"></div>-->
+        </div>
       </nav>
     </Header>
-
+    <div class="bgimg">
+      <img src = "images/Twice_pic_heading.png" alt="Twice bg" style ="width:100%">
+      <div class="centered">Welcome to Twice's Fansite!</div>
+    </div>
 
 
     <!--<div class="Header">
@@ -44,23 +88,11 @@
     <footer>
       <nav class="nav">
         <a href="#" class="nav_link">
-          
+
         </a>
       </nav>>
       
     </footer>
-    <script src ="Main.js"></script>
-    <!--Script
-    <script>
-      function myFunction(){
-        var bars = document.getElementById("NavBarHP");
-        if (bars.className === "NavbarHP"){
-          bars.className += "responsive";
-        }
-        else{
-          bars.className = "NavbarHP";
-        }
-      }
-    </script>-->
+    <script src ="/Main.js"></script>
   </body>
 </html>

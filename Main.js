@@ -17,7 +17,7 @@
 //         }
 //     }
 // }
-
+/* Nav bar js */
 function myFunction() {
     var x = document.getElementById("Navbar");
     if (x.className === "navbar") {
@@ -26,3 +26,18 @@ function myFunction() {
     x.className = "navbar";
     }
 }
+
+
+/*Home js 
+const ToggleButton = document.getElementById('menubutton')
+const NavList = document.getElementById('navBar')
+
+ToggleButton.addEventListener('click', () => {
+    NavList.classList.toggle('active');
+})*/
+const toggleB = document.getElementById('menubutton')
+const NavList = document.getElementById('navList')
+
+toggleB.addEventListener('click', () => {
+    NavList.classList.toggle('active');
+})

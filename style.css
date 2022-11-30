@@ -44,7 +44,7 @@ Header{
     }
 }*/
 
-/*NavBar*/
+/*NavBar
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -151,3 +151,177 @@ footer{
     background-repeat: no-repeat;
     position: relative;
 } */
+
+/*
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background-color:lightgrey;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.logo{
+    height:40px;
+}
+.logodiv{
+    width:100%;
+}
+
+.NavMenu{
+    list-style-type: none;
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+}
+
+.NavMenu .item{
+    display:inline-block;
+    padding:20px 10px;
+}
+
+.navbar a{
+    color:white;
+}
+
+.navbar a:hover{
+    color:lightpink;
+}
+.menu{
+    display: none;
+}
+
+.menuline{
+    width:20px;
+    height:3px;
+    background-color: white;
+    margin-bottom:5px;
+    
+  }
+@media all and(max-width: 400px){
+    .navbar{
+        flex-direction: column;
+
+    }
+    .menu{
+        display:block;
+        position:absolute;
+        right:20px;
+        top:20px;
+    }
+    .NavMenu{
+        list-style-type: none;
+        width:100%;
+        text-align:center;
+        padding-top:10px;
+        display:none;
+    }
+    .NavMenu .item{
+        display:block;
+        border-top: 1px solid white;
+    }
+    .logo{
+        margin-top:10px;
+        margin-left:15px;
+    }
+    .active{
+        display:block;
+    }
+}*/
+
+/*navbar*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+  .nav{
+    background-color: lightgrey;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+  }
+ .logo{
+    height:50px;
+ }
+ .logodiv{
+    width:100%;
+ }
+ .nav-list{
+    list-style-type: none;
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+ }
+ .nav-list .items{
+    display: inline-block;
+    padding:20px 10px;
+ }
+  .nav a{
+    color:white;
+  }
+  .nav a:hover{
+    color:green;
+  }
+  .menu{
+    display: none;
+  }
+
+  .bars{
+    width: 25px;
+    height:25px;
+  }
+  @media all and (max-width: 550px){
+    .nav{
+        flex-direction: column;
+
+    }
+    .menu{
+        display:block;
+        position:absolute;
+        right:20px;
+        top:20px;
+    }
+    .nav-list{
+        list-style-type: none;
+        width:100%;
+        text-align:center;
+        padding-top:10px;
+        display:none;
+    }
+    .nav-list .items{
+        display:block;
+        border-top: 1px solid white;
+    }
+    .icon{
+        margin-top:20px;
+        margin-left:15px;
+    }
+    .active{
+        display:block;
+    }
+  }
+
+  /*bgimg*/
+  .bgimg{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: black;
+  }
