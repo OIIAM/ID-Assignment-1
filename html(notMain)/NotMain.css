@@ -1,4 +1,4 @@
-/*NavBar*/
+/*NavBar
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +80,7 @@ li a {
 
 nav{
     width:auto;
-}
+}*/
 /*Headers About us*/
 .AboutUsH1, .Members_html_heading{
     text-align: center;
@@ -187,14 +187,14 @@ nav{
     display: block;
   }
 
-/* About Us */
-.AUBody {
+/* MemberPage row/column */
+.Member-Page {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     margin-top:0;
 }
-.AUHTML{
+.MPHTML{
     box-sizing: border-box;
 }
 *, *:before, *:after{
@@ -202,79 +202,196 @@ nav{
 }
 .column{
     float: left;
-    width:auto;
     max-width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
 .card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     margin: 8px;
 }
 .card img{
-    width:auto;
-    max-width: 100%;
-    height:250px;
+    width: 100%;
 }
-.container{
-    width: auto;
-    height:200px;  
-    /*overflow:auto; */
+.Info{
+    font-size: 20px;
+    margin: 5px;
 }
-.AboutUsH1{
-    padding: 50px;
+
+.MemberPageH1{
+    padding: 30px;
     text-align: center;
     background-color: #474e5d;
     color: white;
 }
-.AUH1{
-    text-align: center;
-}
+
 .container{
     padding: 0 16px;
 }
 .container::after, .row::after{
     content: "";
-    clear:both;
-    display:table;
+    clear: both;
+    display: table;
 }
 .title{
     color:grey;
 }
-.buttonAU {
+.buttonMP {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 8px;
+    padding:10px;
     color: white;
-    background-color: #000;
+    background-color: black;
     text-align: center;
     cursor: pointer;
     width: 100%;
-}
-.buttonAU:link{
     text-decoration: none;
 }
-.buttonAU a:visited{
+  
+.buttonMP:hover {
+    background-color: lightgrey;
+}
+.buttonMP a:visited, .buttonMP a:link{
     text-decoration: none;
     color:white;
-} /*Changes visited link color to white */
-  
-.buttonAU:hover {
-    background-color: #555;
-    text-decoration:underline ;
 }
-.buttonAU:active{
-    text-decoration: none;
-}
-  
+
 @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
     }
 }
+/*Gallery*/
+.gallery{
+    width:80%;
+    margin:80px auto 80px; /* top, left-right, bot */
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+}
 
+.gallery img{
+    width:100%;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    transform:scale(0.8) rotate(-30deg);
+    border-radius:25px;
+    box-shadow: 0 32px 75px rgba(68,77,136,0,2);
+}
+.zoom-img{
+    width:100%;
+    height:100vh; /*viewport height*/
+    background:rgba(0,0,0,0.9);
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+}
+.zoom-img img{
+    width:90%;
+    max-width: 500px;
+}
+.zoom-img span{
+    position:absolute;
+    top:5%;
+    right:5%;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+}
+/* Gallery Filter*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.Gallery{ /*Gallery Section */
+    padding:40px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:50px auto;
+}
+.Gallery ul{
+    display:flex;
+    margin-bottom:30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.Gallery ul li{
+    list-style: none;
+    background:lightpink;
+    padding:12px 20px;
+    margin:5px;
+    letter-spacing:2px;
+    cursor: pointer;
+}
+.Gallery ul li.active{
+    background:lightcoral;
+    color:white;
+}
+.Pictures{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.Pictures .Pic{
+    position:relative;
+    width: 300px;
+    height:300px;
+    margin: 5px;
+    display:block
+}
+
+.Pictures .Pic.hide{
+    display:none;
+}
+
+.Pictures .Pic img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.galleryHead{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+/* Gallery BackToTop button */
+#BackToTopBtn{
+    display:none;
+    position:fixed;
+    width:50px;
+    bottom:20px;
+    right: -2px;
+    z-index: 9;
+    border:none;
+    outline:none;
+    background:transparent;
+    cursor:pointer;
+    padding:10px;
+    border-radius: 5px;
+}
+#BackToTopBtn:hover{
+    background-color: pink;
+}
 /* Headers MV
 #HeaderMV{
     position: absolute;

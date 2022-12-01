@@ -26,6 +26,17 @@ function myFunction() {
     x.className = "navbar";
     }
 }
+/*Gallery*/
+var zoomImg = document.getElementById('zoom-img-id');
+var zoomImgImg = document.getElementById('ZoomImg');
+
+function OpenZoomIMG(galleryimg){
+    zoomImg.style.display ="flex";
+    zoomImgImg.src = galleryimg;
+}
+function ExitZoomIMG(){
+    zoomImg.style.display="none";
+}
 
 
 /*Home js 
