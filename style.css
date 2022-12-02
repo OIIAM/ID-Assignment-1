@@ -314,9 +314,11 @@ footer{
 
   /*bgimg*/
   .bgimg{
-    position: relative;
-    text-align: center;
-    color: white;
+    background-image:url("images/Twice_pic_heading.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100vh;
   }
   .centered {
     position: absolute;
