@@ -1,3 +1,5 @@
+/* Music Video*/
+
 *{
     margin:0;
     padding:0;
@@ -11,7 +13,7 @@ section{
 }
 
 .mvheading{
-    color:#444;
+    color:#ff5fa2;
     font-size: 40px;
     text-align:center;
     padding:10px;
@@ -130,7 +132,7 @@ section{
 
   .nav{
     background-color: lightgrey;
-    color:white;
+    color:black ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,11 +155,11 @@ section{
     padding:20px 10px;
  }
   .nav a{
-    color:black;
+    color:#ff5fa2; /*neon magenta */
     text-decoration: none;
   }
   .nav a:hover{
-    color:green;
+    color:#fcc89b ; /*apricot */
   }
   .menu{
     display: none;
@@ -198,3 +200,43 @@ section{
     }
   }
 
+  /* BackToTop button */
+#BackToTopBtn{
+    display:none;
+    position:fixed;
+    width:60px;
+    bottom:40px;
+    right: 20px;
+    z-index: 9;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+    padding:10px;
+    border-radius: 5px;
+}
+#BackToTopBtn img{
+    width:50px;
+    height:auto;
+    margin-right:20px;
+}
+#BackToTopBtn:hover{
+    background-color: #eee;
+}
+
+
+  /* footer */
+  .footer{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    gap:10px;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #eee;
+    color:#ff5fa2;
+  }
+  .footer-container h4{
+    font-size:20px;
+  }
+.footer-container a{
+    font-size:20px;
+}
