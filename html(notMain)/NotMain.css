@@ -106,8 +106,8 @@
 /* MemberPage*/
 
 .Member-Page{
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #eee;
   }
@@ -196,7 +196,7 @@
 .gallery img:hover{
     transform:scale(0.8) rotate(-30deg);
     border-radius:25px;
-    box-shadow: 0 32px 75px rgba(68,77,136,0,2);
+    box-shadow: 0 32px 75px rgba(68,77,136,0.2);
 }
 .zoom-img{
     width:100%;
