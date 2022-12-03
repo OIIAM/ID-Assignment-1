@@ -45,3 +45,40 @@ This page lists and shows all Korean Music videos they have up till noe (2022) f
 # References
 
 ## All Links used
+
+icon links attribute
+<a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by ariefstudio - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/x" title="x icons">X icons created by Stockio - Flaticon</a>(https://www.flaticon.com/authors/stockio)
+<a href="https://www.flaticon.com/free-icons/triangle" title="triangle icons">Triangle icons created by icon wind - Flaticon</a>(https://www.flaticon.com/authors/icon-wind)
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>(https://www.freepik.com/)
+<a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a>(https://www.freepik.com/)
+<a href="https://www.flaticon.com/free-icons/internet" title="internet icons">Internet icons created by Freepik - Flaticon</a>(https://www.freepik.com/)
+
+links used for imgs
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fgirlgroupzone.blogspot.com%2F2015%2F04%2Fsixteen-member-profile.html&psig=AOvVaw1M6AkVcfUG9s-pKu7xZ8vH&ust=1669909362728000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjZ-qSf1vsCFQAAAAAdAAAAABAI
+
+https://dbkpop.com/2019/09/17/twice-feel-special-dahyun-chaeyoung-tzuyu-concept-photos-hd-hr-clean/
+https://dbkpop.com/2019/09/16/twice-feel-special-sana-jihyo-mina-concept-photos-hd-hr-clean/
+https://dbkpop.com/2019/09/11/twice-feel-special-nayeon-jeongyeon-momo-concept-photos-hd-hr-clean/
+https://dbkpop.com/2019/09/17/twice-feel-special-group-teaser-photos/
+
+https://dbkpop.com/2018/10/29/twice-yes-or-yes-hd-concept-photos/
+
+https://dbkpop.com/2019/04/16/twice-fancy-you-concept-photos-hd-hr-clean/
+
+https://kpopping.com/kpics/220826-TWICE-x-Melon-Talk-that-Talk-MV-Behind-Photos
+
+https://www.soompi.com/article/840555wpp/twice-releases-teaser-for-upcoming-comeback
+
+https://twice.fandom.com/wiki/Candy_Pop_(Single)/Gallery?file=CandyPop_onceonly_cover.jpg
+https://www.soompi.com/article/944775wpp/twice-releases-teaser-image-knock-knock
+allkpop.com/article/2020/05/twice-take-on-a-bit-of-a-scary-concept-for-more-more-group-image
+https://kpopping.com/kpics/220826-TWICE-x-Melon-Talk-that-Talk-MV-Behind-Photos
+
+https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d082a537-9a45-4512-af54-08c87b335298/dc7x9iw-9a4a50e7-0f97-456d-ac35-3a53b4f21018.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QwODJhNTM3LTlhNDUtNDUxMi1hZjU0LTA4Yzg3YjMzNTI5OFwvZGM3eDlpdy05YTRhNTBlNy0wZjk3LTQ1NmQtYWMzNS0zYTUzYjRmMjEwMTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.h1ybGG5FXMaYPaYNWMBGN4Iasrt1tFZHbEjO184jm24
+
+# Codes that might be used
+
+https://www.w3schools.com/css/css3_buttons.asp
+https://www.w3schools.com/css/css_navbar_horizontal.asp
