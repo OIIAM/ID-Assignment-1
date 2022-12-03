@@ -61,82 +61,71 @@ h3{
 /* MemberPage section*/
 
 /*MemberPage row/column */
-.Member-Page {
-    font-family: Arial, Helvetica, sans-serif;
+.Member-Page{
     margin: 0;
     padding: 0;
-    margin-top:0;
-}
-.MPHTML{
     box-sizing: border-box;
+  }
+.row{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
 }
-*, *:before, *:after{
-    box-sizing: inherit;
-}
-
-.column{
-    float: left;
-    max-width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    
-}
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    margin: 8px;
-}
-.card img{
-    width: 100%;
-}
-.Info{
-    font-size: 20px;
-    margin: 5px;
-}
-
-.MemberPageH1{
-    padding: 30px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-}
-
-.container{
-    padding: 0 16px;
-}
-.container::after, .row::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-.title{
-    color:grey;
-}
-.buttonMP {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding:10px;
-    color: white;
+  .column{
+    /* border:10px dotted black; */
+    border-radius:20px;
+    box-shadow: 0 0 2px 1.5px rgba(0,0,0,0.5);
+  }
+  .card{
+    /* border:10px dotted purple; */
+    border-radius:50px;
+  }
+  .card img{
+    width:100%;
+    border-radius:20px;
+  }
+  .container{
+    /* border:10px dotted pink; */
+    padding:0px 16px;
+  }
+  .buttonMP{
+    display:inline-block;
+    padding: 5px;
+    border:none;
+    outline:0;
+    color:white;
     background-color: black;
     text-align: center;
-    cursor: pointer;
-    width: 100%;
+    width:100%;
     text-decoration: none;
-}
+    font-size:15px;
+  }
   
-.buttonMP:hover {
+  .buttonMP a{
+    width:100%;
+    display:inline-block;
+  }
+  
+  .buttonMP:hover {
     background-color: lightgrey;
-}
-.buttonMP a:visited, .buttonMP a:link{
+  }
+  .buttonMP a:visited, .buttonMP a:link{
     text-decoration: none;
     color:white;
-}
-
-@media all and (max-width: 650px) {
-    .column {
-      width: 100%;
+  }
+  
+  @media(max-width: 991px){
+    .row{
+      grid-template-columns: 1fr 1fr;
     }
-} 
+  }
+  
+  @media(max-width: 768px) {
+    .row{
+      grid-template-columns: 1fr;
+    }
+  }
+  
 
 
 
@@ -390,7 +379,7 @@ h3{
 *{
     box-sizing: border-box;
     margin: 0;
-    padding:0;
+    padding: 0;
   }
 
   .nav{
