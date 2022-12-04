@@ -1,5 +1,4 @@
-
-/*Gallery*/
+/* Gallery */
 var zoomImg = document.getElementById('zoom-img-id');
 var zoomImgImg = document.getElementById('ZoomImg');
 
