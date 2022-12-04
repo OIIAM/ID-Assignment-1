@@ -23,7 +23,7 @@ The Website also caters for returning fans, who stopped listening to Twice for a
 
 ### Wireframe.png
 
-![wireframe-png](/ID-S10247735_LeeZeYiCarleton-Assg1-website/WireFrame/WireFrame.png)
+![wireframe-png](/WireFrame/WireFrame.png)
 
 # All HTML pages
 
